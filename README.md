@@ -12,17 +12,17 @@
 
 ### yarn
 
-**devDependencies:** `yarn add electron electron-builder concurrently wait-on -D`
-**dependencies:** `yarn add cross-env electron-is-dev`
+-   **devDependencies:** `yarn add electron electron-builder concurrently wait-on -D`
+-   **dependencies:** `yarn add cross-env electron-is-dev`
 
 ### npm
 
-**devDependencies** `npm install --save-dev electron electron-builder concurrently wait-on`
-**dependencies** `npm install cross-env electron-is-dev`
+-   **devDependencies** `npm install --save-dev electron electron-builder concurrently wait-on`
+-   **dependencies** `npm install cross-env electron-is-dev`
 
 ## Custom scripts
 
-I renamed the "original" react scripts to "react-nameOfTheOriginalScript" and added custom ones
+I prefixed the "original" react scripts with "react-" and added custom ones
 You can create your own scripts with other names ofc
 
 ```
